@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+/* Reset some default styles */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container */
+#animal-photos {
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid rgb(4, 255, 4);
+    background-color: rgb(41, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+#photo-heading {
+    color: white;
+    font-size: 24px;
+}
+
+/* Style the animal images */
+.animal-image {
+    display: inline-block;
+    margin: 10px;
+}
+
+.animal-image img {
+    border: 5px solid rgb(255, 188, 188);
+    height: 200px;
+}
